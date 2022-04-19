@@ -97,5 +97,6 @@ public class Program {
         for (int maxOccurrenceCounter = 0; maxOccurrenceCounter < maxOccurrenceIndexes.length; ++maxOccurrenceCounter) {
             System.out.print("  " + (char)( maxOccurrenceIndexes[maxOccurrenceCounter]));
         }
+        System.out.print("\n");
     }
 }
